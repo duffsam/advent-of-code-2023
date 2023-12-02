@@ -1,6 +1,6 @@
 #![cfg(test)]
 
-use crate::lib::{day_01_part_1, day_01_part_2};
+use crate::parts::{day_01_part_1, day_01_part_2};
 
 #[test]
 pub fn day_01_part_1_test() {

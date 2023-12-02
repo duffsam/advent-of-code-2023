@@ -21,14 +21,11 @@ pub fn day_01_part_1(input : &Vec<String>) -> u32 {
 pub fn day_01_part_2(input : &Vec<String>) -> u32 {
     let mut total : u32 = 0;
     for line in input{
-        let mut first = 0;
-        let mut last = 0;
-
-        first = match find_digit(&line, false) {
+        let first = match find_digit(&line, false) {
             Some(val) => val,
             None => 0,
         };
-        last = match find_digit(&line, true) {
+        let last = match find_digit(&line, true) {
             Some(val) => val,
             None => 0,
         };

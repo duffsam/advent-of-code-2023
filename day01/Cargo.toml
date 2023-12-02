@@ -8,10 +8,6 @@ edition = "2021"
 [dependencies]
 helpers = {path = "../helpers"}
 
-[lib]
-name = "day01lib"
-path = "src/lib.rs"
-
 [[bin]]
 name = "day01"
 path = "src/main.rs"
